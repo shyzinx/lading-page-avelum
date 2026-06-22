@@ -1,0 +1,9 @@
+:root { --verde: #3E4A3D; --creme: #FAF9F6; --ouro: #D4AF37; }
+body { background: var(--creme); color: var(--verde); font-family: 'Inter', sans-serif; margin: 0; }
+.navbar { display: flex; justify-content: space-between; padding: 2rem 10%; align-items: center; }
+.hero { display: flex; padding: 5rem 10%; align-items: center; gap: 5rem; }
+.hero h1 { font-family: 'Playfair Display', serif; font-size: 4rem; line-height: 1; }
+.btn-cta { background: var(--ouro); color: white; padding: 1rem 2rem; border-radius: 50px; text-decoration: none; display: inline-block; margin-top: 1rem; }
+.servicos { padding: 5rem 10%; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; margin-top: 3rem; }
+.card { background: #fff; padding: 3rem; border-radius: 20px; border: 1px solid #eee; }
